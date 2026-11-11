@@ -1,29 +1,30 @@
 import { Hero } from "@/components/home/Hero";
 import {
-  Advisory,
+  // Advisory,
   ArtformTiles,
-  ArtistFeature,
-  CollectionBand,
-  FeaturedGrid,
-  PriceChips,
+  // ArtistFeature,
+  // CollectionBand,
+  // FeaturedGrid,
+  // PriceChips,
   Stats,
-  Testimonials,
-  TrustStrip,
+  // Testimonials,
 } from "@/components/home/HomeSections";
+
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <TrustStrip />
-      <ArtformTiles />
-      <FeaturedGrid />
-      <CollectionBand />
-      <ArtistFeature />
-      <PriceChips />
-      <Advisory />
-      <Stats />
-      <Testimonials />
+      <div id="discover" className="scroll-mt-16 md:scroll-mt-[72px]">
+        <ArtformTiles />
+      </div>
+      {/* <FeaturedGrid /> */}
+      {/* <CollectionBand /> */}
+      {/* <ArtistFeature /> */}
+      {/* <PriceChips /> */}
+      {/* <Advisory /> */}
+      {/* <Stats /> */}
+      {/* <Testimonials /> */}
     </>
   );
 }
